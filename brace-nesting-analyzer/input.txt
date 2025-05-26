@@ -1,0 +1,14 @@
+class Example {
+    public static void main(String[] args) {
+        System.out.println("Hello {world}"); // a brace inside a string
+        /* opening {
+           inside a block comment
+        */
+        {
+            int x = 10;
+            if (x > 0) {
+                System.out.println(x);
+            }
+        }
+    }
+}
